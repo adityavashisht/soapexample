@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="soapexample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring4soap-1.war">
+      <element id="artifact" artifact-name="soapexample:war exploded" />
+    </root>
+  </artifact>
+</component>
