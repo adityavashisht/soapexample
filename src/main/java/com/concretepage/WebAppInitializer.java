@@ -22,7 +22,7 @@ public class WebAppInitializer implements WebApplicationInitializer {
         servlet.setApplicationContext(ctx);
         servlet.setTransformWsdlLocations(true);
         Dynamic dynamic = servletContext.addServlet("dispatcher",servlet);
-        dynamic.addMapping("/soapws*/ ");
+        dynamic.addMapping("/soapws/* ");
         dynamic.setLoadOnStartup(1);
     }
 
